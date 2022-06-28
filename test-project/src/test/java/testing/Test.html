@@ -1,0 +1,71 @@
+<html>
+<!https://clevertechie.com/html-css/160/how-to-create-html-registration-formcss-responsive-html-signup-form-tutorial-for-beginners>
+<head>
+<title>Signup Form</title>
+<link rel="stylesheet" href="C:/eclipse-workspace/practice_test/src/test/java/Style.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,300" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<form action ="" method="POST">
+<h1>Sign Up</h1>
+
+<fieldset>
+<legend><span class="section">1</span>Your Basic Info</legend>
+<label class="" for="name">Name: </label>
+<input type="text" name ="name" value="">
+<label class="" for="email">Email: </label>
+<input type="email" name ="email" value="">
+<label class="" for="password">Password: </label>
+<input type="password" name ="password" value="">
+<label>Age </label>
+<input type="radio" name ="age" value="under_18">
+<label class="light" for="under_18">Under_18</label></br>
+<input type="radio" name ="age" value="over_18">
+<label class="light" for="under_18">Over_18</label>
+</fieldset>
+
+
+<fieldset>
+<legend> <span class="section">2</span>Your Profile</legend>
+<label class="" for="bio">Bio</label>
+<textarea name ="bio"></textarea>
+<label for="job">Job Role:</label>
+<select class="" name="job">
+<optgroup label="Web">
+<option  value="frontend_developer">Front-End Developer </option>
+<option  value="php_developer">PHP Developer </option>
+<option  value="python_developer">Python Developer </option>
+<option  value="rails_developer">Rails Developer </option>
+<option  value="web_designer">Web Desinger</option>
+<option  value="wordpress_developer">Wordpress Developer </option>
+</optgroup>
+<optgroup label="Mobile">
+<option  value="android_developerr">Android Developer </option>
+<option  value="ios_developer">IOS Developer </option>
+<option  value="mobile_designer">Mobile Designer </option>
+</optgroup>
+<optgroup label="Business">
+<option  value="business_owner">Business Owner </option>
+<option  value="freelancer">Freelancer </option>
+<option  value="youtube_creator">Youtube Creator </option>
+</optgroup>
+</select>
+
+<label>Interests:</label>
+
+<input type="checkbox" value="interest_development" name="user-interest">
+<label class="light" for="development">Development</label></br>
+
+<input type="checkbox" value="interest_design" name="user-interest">
+<label class="light" for="design">Design</label></br>
+<input type="checkbox" value="interest_business" name="user-interest">
+<label class="light" for="business">Business</label>
+</fieldset>
+<button type="submit">Sign Up</button>
+
+
+</form>
+</body>
+
+</html>

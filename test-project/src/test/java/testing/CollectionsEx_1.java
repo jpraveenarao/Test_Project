@@ -1,0 +1,19 @@
+package testing;
+//Q1. Write a program to traverse (or iterate) ArrayList?
+import java.util.ArrayList;
+
+public class CollectionsEx_1 {
+	public static void main(String[] args)
+	{
+		ArrayList<Integer> al= new ArrayList<Integer>();
+		al.add(2);
+		al.add(4);
+		al.add(6);
+		for(int num:al)
+		{
+			System.out.println(num);
+		}
+		
+	}
+
+}
