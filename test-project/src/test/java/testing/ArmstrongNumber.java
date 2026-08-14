@@ -1,5 +1,5 @@
 package testing;
-
+//Armstrong number: sum of the cubes of the digits is itself
 public class ArmstrongNumber {
 	public static void main(String[] args)
 	{
